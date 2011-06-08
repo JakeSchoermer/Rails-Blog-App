@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   respond_to :html, :xml
+  before_filter :authenticate_user!, :only => [:create, :update, :destroy, :edit, :new]
 
   def index
     @posts = Post.all

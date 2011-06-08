@@ -1,0 +1,44 @@
+@font-face {
+  font-family: '28DaysLaterRegular';
+  src: url("/fonts/28_days_later/28_days_later-webfont.eot");
+  src: url("/fonts/28_days_later/28_days_later-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/28_days_later/28_days_later-webfont.woff") format("woff"), url("/fonts/28_days_later/28_days_later-webfont.ttf") format("truetype"), url("/fonts/28_days_later/28_days_later-webfont.svg#28DaysLaterRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 13, ../../app/stylesheets/home.scss */
+html {
+  background: url(/images/landing_page_bg.jpg) no-repeat center center fixed;
+}
+
+
+
+/* line 20, ../../app/stylesheets/home.scss */
+h1#site_header {
+  text-align: center;
+  margin-top: 12%;
+  font-size: 144px;
+  color: white;
+  font-family: '28DaysLaterRegular';
+  text-shadow: #000 3px 3px 7px;
+}
+
+/* line 29, ../../app/stylesheets/home.scss */
+div#index_panel {
+  padding: 5px;
+  height: 125px;
+  background-color: black;
+  opacity: 0.7;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 42, ../../app/stylesheets/home.scss */
+div#index_panel a {
+  display: block;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}

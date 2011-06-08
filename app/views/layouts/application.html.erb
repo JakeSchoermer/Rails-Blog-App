@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Blog</title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag ['scree.css', 'scaffold.css'] %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 
@@ -11,7 +11,11 @@
 
 <div id = 'application_wrapper'>
 
-    <%= yield %>
+    <div id="content">
+
+        <%= yield %>
+
+    </div>
 
 </div>
 

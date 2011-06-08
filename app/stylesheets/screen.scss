@@ -8,3 +8,21 @@ $background: #EEEEEE;
 body {
     background-color:$background;
 }
+
+div#application_wrapper {
+	min-width: 780px;
+	max-width: 1260px;
+	margin: 10px auto;
+    background-color:white;
+
+    padding: 0;
+}
+
+div#content {
+
+}
+
+.notice {
+    color:#00F000;
+    background-color:#B0F080;
+}
