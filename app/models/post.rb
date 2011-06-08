@@ -3,8 +3,5 @@ class Post < ActiveRecord::Base
   validates :title, :presence => true,
                     :length => { :minimum => 5 }
 
-
-  def recent (count)
-    blah blah
-  end
+  has_many :comments, :dependent => :destroy
 end
