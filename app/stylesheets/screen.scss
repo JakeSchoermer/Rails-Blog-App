@@ -4,25 +4,41 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 $background: #EEEEEE;
+$foreground: #FFFFFF;
 
 body {
     background-color:$background;
 }
 
-div#application_wrapper {
+#application_wrapper {
 	min-width: 780px;
 	max-width: 1260px;
 	margin: 10px auto;
-    background-color:white;
 
     padding: 0;
+
+    background-color:$foreground;
+}
+
+div#header {
+    height: 175px;
+    background-color:red;
+}
+
+div#nav {
+    height:50px;
+    background-color:blue;
 }
 
 div#content {
+    padding: 5px;
+}
 
+div#footer {
+    height:300px;
+    background-color:orange;
 }
 
 .notice {
     color:#00F000;
-    background-color:#B0F080;
 }
