@@ -6,24 +6,31 @@
   font-style: normal;
 }
 
-/* line 13, ../../app/stylesheets/home.scss */
+/* line 17, ../../app/stylesheets/home.scss */
 html {
   background: url(/images/landing_page_bg.jpg) no-repeat center center fixed;
 }
 
+/* line 24, ../../app/stylesheets/home.scss */
+div#slide_menu {
+  width: 200px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
-
-/* line 20, ../../app/stylesheets/home.scss */
+/* line 32, ../../app/stylesheets/home.scss */
 h1#site_header {
   text-align: center;
   margin-top: 12%;
   font-size: 144px;
   color: white;
   font-family: '28DaysLaterRegular';
-  text-shadow: #000 3px 3px 7px;
+  text-shadow: #000 5px 5px 5px;
 }
 
-/* line 29, ../../app/stylesheets/home.scss */
+/* line 41, ../../app/stylesheets/home.scss */
 div#index_panel {
   padding: 5px;
   height: 125px;
@@ -35,7 +42,7 @@ div#index_panel {
   left: 0;
   right: 0;
 }
-/* line 42, ../../app/stylesheets/home.scss */
+/* line 55, ../../app/stylesheets/home.scss */
 div#index_panel a {
   display: block;
   font-size: 24px;

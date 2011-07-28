@@ -2,7 +2,7 @@
   <div class = "post">
     <h3><%= post.title %></h3>
     <p>By <%= post.name %></p>
-    <%= post.content %>
+    <%= raw post.content %>
     <%= link_to 'Show', post %>
     <%= link_to 'Edit', edit_post_path(post) %>
     <%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %>

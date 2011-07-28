@@ -2,22 +2,44 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 8, ../../app/stylesheets/screen.scss */
+/* line 9, ../../app/stylesheets/screen.scss */
 body {
   background-color: #eeeeee;
 }
 
-/* line 12, ../../app/stylesheets/screen.scss */
-div#application_wrapper {
+/* line 13, ../../app/stylesheets/screen.scss */
+#application_wrapper {
   min-width: 780px;
   max-width: 1260px;
   margin: 10px auto;
-  background-color: white;
   padding: 0;
+  background-color: white;
 }
 
-/* line 25, ../../app/stylesheets/screen.scss */
+/* line 23, ../../app/stylesheets/screen.scss */
+div#header {
+  height: 175px;
+  background-color: red;
+}
+
+/* line 28, ../../app/stylesheets/screen.scss */
+div#nav {
+  height: 50px;
+  background-color: blue;
+}
+
+/* line 33, ../../app/stylesheets/screen.scss */
+div#content {
+  padding: 5px;
+}
+
+/* line 37, ../../app/stylesheets/screen.scss */
+div#footer {
+  height: 300px;
+  background-color: orange;
+}
+
+/* line 42, ../../app/stylesheets/screen.scss */
 .notice {
   color: #00F000;
-  background-color: #B0F080;
 }

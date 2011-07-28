@@ -1,35 +1,55 @@
-body { background-color: #fff; color: #333; }
-
-body, p, ol, ul, td {
+/* line 1, ../../app/stylesheets/scaffold.scss */
+body {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size:   13px;
+  font-size: 13px;
   line-height: 18px;
 }
+/* line 6, ../../app/stylesheets/scaffold.scss */
+body p, body ol, body ul, body td {
+  color: #000000;
+}
 
+/* line 11, ../../app/stylesheets/scaffold.scss */
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: 11px;
 }
 
-a { color: #000; }
-a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+/* line 17, ../../app/stylesheets/scaffold.scss */
+a {
+  color: #000;
+}
 
+/* line 21, ../../app/stylesheets/scaffold.scss */
+a:visited {
+  color: #666;
+}
+
+/* line 25, ../../app/stylesheets/scaffold.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 30, ../../app/stylesheets/scaffold.scss */
 div.field, div.actions {
   margin-bottom: 10px;
 }
 
+/* line 34, ../../app/stylesheets/scaffold.scss */
 #notice {
   color: green;
 }
 
+/* line 38, ../../app/stylesheets/scaffold.scss */
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
 }
 
+/* line 44, ../../app/stylesheets/scaffold.scss */
 #error_explanation {
   width: 450px;
   border: 2px solid red;
@@ -39,6 +59,7 @@ div.field, div.actions {
   background-color: #f0f0f0;
 }
 
+/* line 53, ../../app/stylesheets/scaffold.scss */
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -50,11 +71,8 @@ div.field, div.actions {
   color: #fff;
 }
 
+/* line 64, ../../app/stylesheets/scaffold.scss */
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
-}
-
-#application_wrapper {
-    background-color:#EEEEEE;
 }

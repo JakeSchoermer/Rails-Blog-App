@@ -1,14 +1,18 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
-gem 'sqlite3'
+#gem 'sqlite3'
+gem "mysql2", "< 0.3"
 gem "rake", "0.9.1"
+gem "compass", "0.11.1"
+gem "devise", "1.3.4"
+gem "tinymce_hammer", "~> 0.2.2"
 
 # Use unicorn as the web server
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -23,6 +27,7 @@ gem "rake", "0.9.1"
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
+#
+#group :development, :test do
+#   gem 'webrat', ">= 0"
 # end

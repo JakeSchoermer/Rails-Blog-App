@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  resources :options
+
   devise_for :users
 
   resources :posts do
