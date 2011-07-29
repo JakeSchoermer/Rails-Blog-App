@@ -5,3 +5,5 @@ tmp/
 .idea
 .idea/*
 .DS_Store
+config/deploy.rb
+Capfile
