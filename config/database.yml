@@ -5,7 +5,7 @@ development:
   database: blog_development
   pool: 5
   username: root
-  password: root
+  password: Linux#3377
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -26,9 +26,9 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: blog_development
+  database: rails_blog
   pool: 5
-  username: root
-  password: root
-  socket: /tmp/mysql.sock
+  username: rails_blog
+  password: rails_blog
+  socket: /var/run/mysqld/mysqld.sock
 
