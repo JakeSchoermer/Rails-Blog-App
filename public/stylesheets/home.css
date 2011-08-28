@@ -14,8 +14,8 @@ html {
 /* line 24, ../../app/stylesheets/home.scss */
 div#social_media {
   position: absolute;
+  top: 5px;
   right: 5px;
-  top: 0;
   padding: 0;
 }
 /* line 31, ../../app/stylesheets/home.scss */
