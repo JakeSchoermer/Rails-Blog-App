@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '8.1.2'
 #gem 'sqlite3'
 gem "mysql2", "< 0.3"
-gem "rake", "0.9.1"
+gem "rake", "13.3.1"
 gem "compass", "0.11.1"
-gem "devise", "1.3.4"
+gem "devise", "5.0.3"
 gem "tinymce_hammer", "~> 0.2.2"
 
 # Use unicorn as the web server
